@@ -1,0 +1,47 @@
+{
+    "common": {
+        "cancel": "キャンセル",
+        "confirm": "確定",
+        "submit": "送信",
+        "close": "閉じる"
+    },
+    "alert": {
+        "header": "確認",
+        "content": "本当に実行しますか？"
+    },
+    "input": {
+        "title": "入力",
+        "selectOption": "オプションを選択",
+        "selectOptions": "オプションを選択",
+        "searchPlaceholder": "検索...",
+        "noOptionsFound": "見つかりませんでした",
+        "toggleOn": "オン",
+        "toggleOff": "オフ",
+        "selectDate": "日付を選択...",
+        "selectDates": "日付を選択...",
+        "validation": {
+            "required": "%s は必須です",
+            "minLength": "%s は %s 文字以上である必要があります",
+            "maxLength": "%s は %s 文字以下である必要があります",
+            "minValue": "%s は %s 以上である必要があります",
+            "maxValue": "%s は %s 以下である必要があります",
+            "maxSelections": "%s で選択できるのは %s 個までです%s"
+        }
+    },
+    "menu": {
+        "close": "%s で閉じる",
+        "select": "項目を選択してください"
+    },
+    "progressbar": {
+        "title": "進行中",
+        "cancel": "%s でキャンセル"
+    },
+    "skillcheck": {
+        "title": "スキルチェック",
+        "instructions": "説明",
+        "instructionText": "%s を押せ（%s が %s に重なった時）",
+        "redLine": "赤い線",
+        "greenZone": "緑のゾーン",
+        "hint": "タイミングが重要だ..."
+    }
+}

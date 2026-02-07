@@ -1,0 +1,20 @@
+{
+    "tank_full": "この車両のタンクは満タンです",
+    "petrolcan_cannot_afford": "所持金不足でガソリン携行缶を購入できません",
+    "refuel_cannot_afford": "所持金不足で給油できません",
+    "vehicle_far": "車両が遠すぎます",
+    "pump_fuel_with_can": "ポンプで給油する前に携行缶をしまってください",
+    "fuel_help": "~INPUT_C2939D45~ を押して給油",
+    "petrolcan_help": "~INPUT_C2939D45~ を押して携行缶を購入または補充",
+    "leave_vehicle": "給油するには車両から降りてください",
+    "start_fueling": "給油を開始",
+    "petrolcan_buy_or_refill": "携行缶を購入または補充",
+    "fuel_station_blip": "ガソリンスタンド",
+    "not_enough_money": "所持金が足りません！ 不足額: $%s",
+    "fuel_success": "給油完了: %s - $%s",
+    "petrolcan_refill": "携行缶の補充に $%s 支払いました",
+    "petrolcan_buy": "携行缶の購入に $%s 支払いました",
+    "petrolcan_cannot_carry": "これ以上携行缶を持てません",
+    "petrolcan_not_enough_fuel": "携行缶の燃料が足りません",
+    "petrolcan_not_equipped": "携行缶を装備してください"
+}

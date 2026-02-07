@@ -1,0 +1,40 @@
+{
+    "error": {
+        "no_deposit": "デポジット ¥%s が必要です",
+        "cancelled": "キャンセルされました",
+        "vehicle_not_correct": "これは商用車ではありません！",
+        "no_driver": "この操作を行うには運転席にいる必要があります",
+        "no_work_done": "まだ配送を行っていません",
+        "backdoors_not_open": "車両の後部ドアが開いていません",
+        "get_out_vehicle": "この操作を行うには車両から降りる必要があります",
+        "too_far_from_trunk": "車両の荷台から箱を取り出す必要があります",
+        "too_far_from_delivery": "配送地点にもっと近づく必要があります",
+        "too_many_rents": "最近車両をレンタルしたばかりです。数分後にもう一度試してください"
+    },
+    "success": {
+        "paid_with_cash": "デポジット ¥%s を現金で支払いました",
+        "paid_with_bank": "デポジット ¥%s を銀行口座から支払いました",
+        "refund_to_cash": "デポジット ¥%s が返金されました",
+        "you_earned": "¥%s 稼ぎました",
+        "payslip_time": "すべての店舗を回りました。給料を受け取る時間です！"
+    },
+    "menu": {
+        "header": "利用可能な車両",
+        "close_menu": "⬅ メニューを閉じる"
+    },
+    "mission": {
+        "store_reached": "店舗に到着しました。[E] で荷台から箱を取り出し、マーカーまで運んでください。",
+        "take_box": "商品の箱を持つ",
+        "deliver_box": "商品の箱を届ける",
+        "another_box": "次の箱を取りに行く",
+        "goto_next_point": "すべての商品を届けました。次の配送先へ向かってください",
+        "return_to_station": "すべての商品を届け終わりました。ステーションに戻ってください",
+        "job_completed": "ルート配送が完了しました。給料を受け取ってください"
+    },
+    "info": {
+        "pickup_paycheck": "給料を受け取る",
+        "store_vehicle": "車両をしまう",
+        "vehicles": "車両",
+        "deliver_to_store": "店舗へ箱を届ける"
+    }
+}

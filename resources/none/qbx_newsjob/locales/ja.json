@@ -1,0 +1,28 @@
+{
+    "error": {
+        "cant_spawn_vehicle": "車両のスポーン中に問題が発生しました",
+        "no_access": "このコマンドを使用する権限がありません"
+    },
+    "info": {
+        "weazle_overlay": "Weazel オーバーレイ: [E]  \n映画風オーバーレイ: [M]",
+        "weazel_news_vehicles": "Weazel News 車両",
+        "close_menu": "⬅ メニューを閉じる",
+        "weazel_news_helicopters": "Weazel News ヘリコプター",
+        "store_vehicle": "[E] - 車両をしまう",
+        "vehicles": "[E] - 車両",
+        "store_helicopters": "[E] - ヘリコプターをしまう",
+        "helicopters": "[E] - ヘリコプター",
+        "enter": "[E] - 入る",
+        "go_outside": "[E] - 外に出る",
+        "roof_enter": "[E] - 屋上へ行く",
+        "roof_exit": "[E] - 屋上から出る",
+        "breaking_news": "ニュース速報",
+        "title_breaking_news": "Weazel Today - 独占ニュース速報",
+        "bottom_breaking_news": "現場から生中継で最新ニュースをお届けします",
+        "newscam": "ニュースカメラを持つ",
+        "newsmic": "マイクを持つ",
+        "newsbmic": "ブームマイクを持つ",
+        "news_plate": "WZNW",
+        "blip_name": "Weazel News"
+    }
+}

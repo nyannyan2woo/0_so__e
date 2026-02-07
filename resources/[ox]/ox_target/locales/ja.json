@@ -1,0 +1,17 @@
+{
+  "toggle_front_driver_door": "運転席ドアを開閉",
+  "toggle_front_passenger_door": "助手席ドアを開閉",
+  "toggle_rear_driver_door": "後部ドア(運転席側)を開閉",
+  "toggle_rear_passenger_door": "後部ドア(助手席側)を開閉",
+  "toggle_hood": "ボンネットを開閉",
+  "toggle_trunk": "トランクを開閉",
+  "debug_box": "(デバッグ) ボックス",
+  "debug_sphere": "(デバッグ) スフィア",
+  "debug_police_car": "警察車両",
+  "debug_ped": "(デバッグ) Ped",
+  "debug_vehicle": "(デバッグ) 車両",
+  "debug_object": "(デバッグ) オブジェクト",
+  "debug_global": "(デバッグ) グローバル",
+  "toggle_targeting": "ターゲット切替",
+  "go_back": "戻る"
+}

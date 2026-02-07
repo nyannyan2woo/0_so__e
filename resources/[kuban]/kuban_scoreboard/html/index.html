@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>スコアボード</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="scoreboard">
+        <div class="header">
+            <img src="images/logo.png" alt="Helixロゴ">
+            <div class="top-right-boxes">
+                <div class="info-box">
+                    職業
+                    <span id="player-job">-</span>
+                </div>
+                <div class="info-box">
+                    あなたのID
+                    <span id="player-id">-</span>
+                </div>
+                <div class="info-box">
+                    稼働時間
+                    <span id="server-uptime">-</span>
+                </div>
+                <div class="info-box">
+                    プレイヤー
+                    <span id="player-count">0</span>
+                </div>
+            </div>
+        </div>
+        <div class="emergency-services" id="jobs-container"></div>
+
+        <div class="footer">
+            <span class="key-box">HOME</span>キーを押して開く/閉じる
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

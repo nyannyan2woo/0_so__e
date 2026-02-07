@@ -1,0 +1,93 @@
+{
+    "notifications": {
+        "success": {
+            "repaired": "車両を修理しました！",
+            "paid": "銀行口座から $%s 支払いました"
+        },
+        "error": {
+            "money": "所持金が足りません！",
+            "alreadyInstalled": "このパーツは既にインストールされています"
+        },
+        "props": {
+            "installTitle": "カスタムショップ"
+        }
+    },
+    "dragCam": {
+        "zoomIn": "ズームイン",
+        "zoomOut": "ズームアウト",
+        "toggleDoors": "ドア開閉",
+        "changeView": "一人称視点切替"
+    },
+    "textUI": {
+        "tune": "車両をカスタム"
+    },
+    "menus": {
+        "main": {
+            "title": "Popcorn Customs",
+            "repair": "修理",
+            "performance": "性能・チューニング",
+            "parts": "外装 - パーツ",
+            "colors": "外装 - カラー",
+            "extras": "エクストラパーツ"
+        },
+        "colors": {
+            "primary": "メインカラー塗装",
+            "secondary": "サブカラー塗装",
+            "neon": "ネオン",
+            "cosmetics_colors": "外装 - カラー"
+        },
+        "neon": {
+            "title": "ネオン",
+            "neon": "ネオン %s%s",
+            "color": "ネオンカラー",
+            "installed": "%s ネオンを装着しました"
+        },
+        "paint": {
+            "title": "外装 - カラー",
+            "primary": "メインカラー",
+            "secondary": "サブカラー"
+        },
+        "parts": {
+            "title": "外装 - パーツ",
+            "wheels": "ホイール"
+        },
+        "performance": {
+            "title": "性能・チューニング",
+            "turbo": "ターボ"
+        },
+        "wheels": {
+            "title": "ホイール",
+            "bikeRear": "バイク後輪",
+            "installed": "%s %s を装着しました"
+        },
+        "options": {
+            "interior": "内装",
+            "livery": "リバリー (ペイント)",
+            "pearlescent": "パールセント",
+            "plateIndex": {
+                "title": "ナンバープレート",
+                "installed": "%s プレートを取り付けました"
+            },
+            "tyreSmoke": "タイヤスモーク",
+            "wheelColor": "ホイールカラー",
+            "windowTint": {
+                "title": "ウィンドウティント",
+                "installed": "%s ウィンドウを適用しました"
+            },
+            "xenon": {
+                "title": "キセノンライト",
+                "installed": "%s キセノンを装着しました"
+            }
+        },
+        "general": {
+            "stock": "純正",
+            "enabled": "有効",
+            "disabled": "無効",
+            "installed": "%s を装着しました",
+            "applied": "%s を適用しました"
+        }
+    },
+    "general": {
+        "payReason": "車両カスタム費"
+    }
+}

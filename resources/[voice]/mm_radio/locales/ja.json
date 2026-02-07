@@ -1,0 +1,33 @@
+{
+    "join_notify_description": "周波数 %.2f MHz に接続しました",
+    "invalid_notify_description": "周波数 %.2f MHz は利用できません",
+    "already_notify_description": "既に周波数 %.2f MHz に接続しています",
+    "restricted_notify_description": "周波数 %.2f MHz へのアクセス権限がありません",
+    "volume_notify_description": "音量を %d%% に設定しました",
+    "unsuccess_name": "名前の変更に失敗しました",
+    "jammer_notify_description": "周波数 %.2f MHz への接続に失敗しました（電波障害）",
+    "toggle_defean": "無線をミュートしました",
+    "toggle_undeafen": "無線のミュートを解除しました",
+    "failed_mute": "プレイヤーのミュートに失敗しました",
+    "ui": {
+        "header": "無線接続中",
+        "frequency": "周波数",
+        "disconnect": "切断",
+        "notconnected": "未接続",
+        "settings": "設定",
+        "channels": "チャンネル",
+        "radio": "無線機",
+        "members": "メンバー",
+        "favorites": "お気に入り",
+        "recommended": "おすすめ",
+        "clear": "クリア",
+        "hide_overlay": "オーバーレイを隠す",
+        "show_overlay": "オーバーレイを表示",
+        "save": "保存",
+        "radio_settings": "無線設定",
+        "move_radio": "無線機の移動",
+        "allow_move": "移動を許可",
+        "overlay_settings": "オーバーレイ設定",
+        "enableClicks": "無線機音"
+    }
+}

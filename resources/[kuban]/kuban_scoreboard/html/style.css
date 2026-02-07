@@ -1,0 +1,218 @@
+:root {
+    --font-family: Arial, sans-serif;
+
+    --header-logo-width: 120px;
+    --service-card-width: 23%;
+    --border-radius: 10px;
+
+    --bg-main: #181A1B;
+    --bg-box: #212526;
+    --bg-alt: #1E2022;
+    --bg-hover: #2A2D30;
+
+    --text-main: #EAEAEA;
+    --text-light: #9E9E9E;
+    --text-strong: #FFFFFF;
+
+    --status-none: #C0C0C0;
+    --status-very-low: #FF6B6B;
+    --status-low: #FFB74D;
+    --status-medium: #FFD700;
+    --status-high: #4CAF50;
+    --status-very-high: #00E676;
+
+    --bar-none: #666666;
+    --bar-very-low: #FF6B6B;
+    --bar-low: #FFB74D;
+    --bar-medium: #FFD700;
+    --bar-high: #4CAF50;
+    --bar-very-high: #00FF85;
+}
+
+/* DO NOT EDIT BELOW THIS LINE UNLESS YOU KNOW WHAT UR DOING */
+/* DO NOT EDIT BELOW THIS LINE UNLESS YOU KNOW WHAT UR DOING */
+/* DO NOT EDIT BELOW THIS LINE UNLESS YOU KNOW WHAT UR DOING */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-family);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: transparent;
+}
+
+#scoreboard {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 55%;
+    background: var(--bg-main);
+    color: var(--text-main);
+    padding: 15px;
+    text-align: center;
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.header img {
+    width: var(--header-logo-width);
+    height: auto;
+    object-fit: contain;
+}
+
+.top-right-boxes {
+    display: flex;
+    gap: 12px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.info-box {
+    background: var(--bg-box);
+    padding: 8px 14px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 8px;
+    box-shadow: inset 0px 0px 8px rgba(255, 255, 255, 0.02);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 100px;
+    color: var(--text-main);
+}
+
+.info-box span {
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--text-strong);
+}
+
+.emergency-services {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.service-card {
+    background: var(--bg-box);
+    padding: 15px;
+    border-radius: var(--border-radius);
+    width: var(--service-card-width);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.service-card img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 5px;
+}
+
+.status {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.status.none { color: var(--status-none); }
+.status.very-low { color: var(--status-very-low); }
+.status.low { color: var(--status-low); }
+.status.medium { color: var(--status-medium); }
+.status.high { color: var(--status-high); }
+.status.very-high { color: var(--status-very-high); }
+
+.status-bar {
+    width: 100%;
+    height: 6px;
+    margin-top: 5px;
+    border-radius: 3px;
+}
+
+.bar-none { background: var(--bar-none); }
+.bar-very-low { background: var(--bar-very-low); }
+.bar-low { background: var(--bar-low); }
+.bar-medium { background: var(--bar-medium); }
+.bar-high { background: var(--bar-high); }
+.bar-very-high { background: var(--bar-very-high); }
+
+.footer {
+    margin-top: 12px;
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--text-light);
+}
+
+.key-box {
+    background: var(--bg-box);
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 6px;
+    display: inline-block;
+    box-shadow: inset 0px 0px 5px rgba(255, 255, 255, 0.05);
+}
+
+.players-online {
+    margin-top: 20px;
+    background: var(--bg-box);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 5px rgba(255, 255, 255, 0.05);
+}
+
+.players-online table {
+    width: 100%;
+    border-collapse: collapse;
+    color: var(--text-main);
+}
+
+.players-online th,
+.players-online td {
+    padding: 8px;
+    text-align: left;
+}
+
+.players-online th {
+    background: var(--bg-main);
+    color: var(--text-strong);
+}
+
+.players-online tr:nth-child(even) {
+    background: var(--bg-alt);
+}
+
+.players-online tr:hover {
+    background: var(--bg-hover);
+}
+
+.badge {
+    display: inline-block;
+    padding: 2px 6px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.admin { background: #E53935; color: #FFF; }
+.staff { background: #1E88E5; color: #FFF; }

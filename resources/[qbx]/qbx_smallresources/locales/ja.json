@@ -1,0 +1,46 @@
+{
+   "error": {
+      "canceled": "キャンセルされました...",
+      "cruise_control_disabled": "クルーズコントロールを無効化しました",
+      "cruise_control_unavailable": "クルーズコントロールは利用できません",
+      "deleted_recording": "録画を削除しました！",
+      "later_aligator": "またね！",
+      "stress_gain": "ストレスを感じています！",
+      "no_vehicle_nearby": "起こせる車両が近くにありません。",
+      "is_handcuffed": "手錠をかけられています。",
+      "is_fastened": "シートベルトを着用しています。",
+      "vehicle_radio_off": "カーラジオをオフにしました"
+   },
+   "success": {
+      "cruise_control_enabled": "クルーズコントロールを有効化しました",
+      "started_recording": "録画を開始しました！",
+      "stopped_recording": "録画を停止しました！",
+      "saved_recording": "録画を保存しました！",
+      "stress_relief": "リラックスしました！",
+      "flipped_car": "車両を起こしました！",
+      "vehicle_radio_on": "カーラジオをオンにしました"
+   },
+   "progress": {
+      "eating": "食事中..",
+      "drinking": "飲んでいます..",
+      "drinking_liquor": "お酒を飲んでいます..",
+      "quick_sniff": "軽く吸い込み中..",
+      "smoking_crack": "クラックを吸っています..",
+      "popping_pills": "錠剤を飲んでいます..",
+      "healing": "治療中..",
+      "smoking_meth": "覚醒剤を吸っています..",
+      "lighting_joint": "ジョイントに火をつけています..",
+      "flipping_car": "車両を起こしています..."
+   },
+   "info": {
+      "minutes": "分",
+      "seconds": "秒..",
+      "shuffleSeat": "座席移動",
+      "teleport_level_select": "レベル #%s へ移動",
+      "teleport_current_level_indication": "(現在地)"
+   },
+   "actions": {
+      "push_vehicle": "車両を押す (SHIFTキーを押し続ける)",
+      "toggle_cruise_control": "クルーズコントロール切替"
+   }
+}

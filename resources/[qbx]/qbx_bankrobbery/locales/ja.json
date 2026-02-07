@@ -1,0 +1,31 @@
+{
+    "success": {
+        "success_message": "成功",
+        "fuses_are_blown": "ヒューズが飛びました",
+        "door_has_opened": "ドアが開きました"
+    },
+    "error": {
+        "cancel_message": "キャンセルされました",
+        "safe_too_strong": "金庫のロックが頑丈すぎるようだ...",
+        "missing_item": "アイテムが足りません...",
+        "bank_already_open": "銀行はすでに開いています...",
+        "minimum_police_required": "警察官が最低 %s 人必要です",
+        "security_lock_active": "セキュリティロックが作動中のため、現在ドアを開けることはできません",
+        "wrong_type": "%s は引数 '%s' に対して正しい型を受け取りませんでした。\n受信した型: %s\n受信した値: %s\n期待される型: %s",
+        "fuses_already_blown": "ヒューズはすでに飛んでいます...",
+        "event_trigger_wrong": "条件が満たされていない状態で %s%s がトリガーされました。ソース: %s",
+        "missing_ignition_source": "着火源（ライターなど）がありません"
+    },
+    "general": {
+        "breaking_open_safe": "金庫をこじ開け中...",
+        "connecting_hacking_device": "ハッキングデバイスを接続中...",
+        "fleeca_robbery_alert": "フリーカ銀行 強盗発生",
+        "paleto_robbery_alert": "ブレイン郡貯蓄銀行 強盗発生",
+        "pacific_robbery_alert": "パシフィック・スタンダード銀行 強盗発生",
+        "break_safe_open_option_target": "金庫をこじ開ける",
+        "break_safe_open_option_drawtext": "金庫をこじ開ける",
+        "validating_bankcard": "カード認証中...",
+        "thermite_detonating_in_seconds": "サーマイト点火まで %s 秒",
+        "bank_robbery_police_call": "10-90: 銀行強盗発生"
+    }
+}

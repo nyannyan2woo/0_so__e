@@ -1,0 +1,16 @@
+{
+    "text": {
+        "enter_house": "家に入る",
+        "enter_requirements": "ロックピック | ドライバーセット",
+        "leave_house": "家を出る",
+        "search": "物色する",
+        "pickup": "%s を取る"
+    },
+    "notify": {
+        "no_police": "警察官が足りません (必要数: %s)",
+        "fail_skillcheck": "スキルチェック失敗",
+        "success_skillcheck": "スキルチェック成功",
+        "busy": "誰かが既に行っています",
+        "police_alert": "所有物件付近で不審な活動を確認"
+    }
+}

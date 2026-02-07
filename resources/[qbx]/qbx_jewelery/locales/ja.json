@@ -1,0 +1,17 @@
+{
+    "text": {
+        "electrical": "ドアロックをハッキング",
+        "electricalTarget": "ドアロックをハッキング",
+        "cabinet": "キャビネットを割る",
+        "cabinetTarget": "キャビネットを割る"
+    },
+    "notify": {
+        "busy": "誰かが既に行っています",
+        "cabinetdone": "ここは既に空です",
+        "noweapon": "武器を手に持っていません",
+        "noitem": "%s を所持していません",
+        "police": "バンジェリコ宝石店で強盗発生",
+        "nopolice": "警察官が足りません (必要数: %s)",
+        "reward_dropped": "宝石をいくつか落としてしまった"
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "error": {
+        "already_mission": "すでにNPCミッションを遂行中です",
+        "not_in_taxi": "タクシーに乗っていません",
+        "missing_meter": "この車両にはタクシーメーターがありません",
+        "no_vehicle": "車両に乗っていません",
+        "not_active_meter": "タクシーメーターが作動していません",
+        "no_meter_sight": "タクシーメーターが見当たりません"
+    },
+    "success": {},
+    "info": {
+        "person_was_dropped_off": "乗客を降ろしました！",
+        "npc_on_gps": "GPSに乗客の位置を表示しました",
+        "go_to_location": "乗客を指定された場所へ連れて行ってください",
+        "vehicle_parking": "車両を駐車",
+        "job_vehicles": "業務車両",
+        "drop_off_npc": "乗客を降ろす",
+        "call_npc": "乗客を呼ぶ",
+        "blip_name": "ダウンタウンキャブ",
+        "taxi_label_1": "タクシー",
+        "no_spawn_point": "タクシーを呼び出せる場所が見つかりません",
+        "taxi_returned": "タクシーを返却しました",
+        "request_taxi": "タクシーを呼ぶ",
+        "request_taxi_target": "タクシーを呼ぶ"
+    },
+    "menu": {
+        "taxi_menu_header": "タクシー車両",
+        "close_menu": "⬅ メニューを閉じる"
+    }
+}

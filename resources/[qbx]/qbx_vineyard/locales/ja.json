@@ -1,0 +1,22 @@
+{
+    "error": {
+        "invalid_items": "正しいアイテムを持っていません！"
+    },
+    "progress": {
+        "pick_grapes": "ブドウを収穫中...",
+        "process_wine": "ワインを加工中",
+        "process_juice": "ブドウジュースを加工中"
+    },
+    "task": {
+        "start_task": "開始",
+        "vineyard_processing": "ブドウ加工",
+        "cancel_task": "タスクをキャンセルしました"
+    },
+    "menu": {
+        "title": "ブドウ加工所",
+        "process_wine_title": "ワイン加工",
+        "process_juice_title": "ブドウジュース加工",
+        "wine_items_needed": "必要アイテム: ブドウジュース\n必要数: %s",
+        "juice_items_needed": "必要アイテム: ブドウ\n必要数: %s"
+    }
+}

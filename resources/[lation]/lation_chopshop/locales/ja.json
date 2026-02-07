@@ -1,0 +1,126 @@
+{
+    "notify": {
+        "cant-carry": "これ以上持てません",
+        "cant-chop-here": "ここでは作業できません",
+        "owned-vehicle": "個人所有の車両は解体できません",
+        "not-started": "まだ解体を開始していません",
+        "requested-vehicle": "利用可能なものがあれば通知します",
+        "start-chop": "解体を開始できます",
+        "missing-tool": "これを行うためのツールが足りません",
+        "tool-broke": "くそっ！ツールが壊れた...",
+        "part-completed": "うーん、ここには取り外すものがありません",
+        "no-police": "勤務中の警察官が足りません",
+        "not-enough-parts": "交換するパーツが足りません",
+        "not-enough-money": "お金が足りません",
+        "not-enough-level": "経験が足りません",
+        "invalid-player": "ターゲットが無効または利用できません",
+        "already-in-group": "すでにグループに参加しています",
+        "target-already-in-group": "ターゲットはすでにグループに参加しています",
+        "target-owns-a-group": "ターゲットはすでにグループを所有しています",
+        "owner-left-group": "グループは解散しました",
+        "member-left-group": "グループから抜けました",
+        "owner-added-member": "%s をグループに追加しました",
+        "member-added": "%s があなたを解体グループに追加しました",
+        "owner-removed-member": "%s をグループから削除しました",
+        "member-removed": "%s があなたを解体グループから削除しました"
+    },
+    "target": {
+        "talk": "話す",
+        "start-chop": "解体を開始",
+        "remove-bonnet": "ボンネットを取り外す",
+        "remove-door": "ドアを取り外す",
+        "remove-wheel": "ホイールを取り外す",
+        "remove-boot": "トランクを取り外す",
+        "complete-chop": "フレームをスクラップにする"
+    },
+    "textui": {
+        "vehicle-finder": {
+            "label": "**車両ファインダー**  \n 指定モデル: %s  \n 近くの候補: %s"
+        }
+    },
+    "inputs": {
+        "shops": {
+            "label": "数量",
+            "desc": "いくつですか？"
+        },
+        "player": {
+            "label": "プレイヤー",
+            "desc": "プレイヤーIDを入力"
+        }
+    },
+    "alerts": {
+        "vehicle-chopped": {
+            "header": "解体を続けますか？",
+            "content": "よくやった！ %s の解体が完了しました。続けますか？",
+            "labels": {
+                "confirm": "続ける",
+                "cancel": "やめる"
+            }
+        }
+    },
+    "player-data": {
+        "level-title": "解体 | レベル %s/%s",
+        "level-desc": "現在のXP: %s",
+        "stats-title": "統計",
+        "stats-desc": "これまでの解体統計を表示",
+        "meta-next-level": "次のレベル",
+        "meta-remainder": "残り",
+        "meta-maxed-level": "最大レベル到達"
+    },
+    "stats-menu": {
+        "main-title": "統計",
+        "vehicles-title": "車両",
+        "vehicles-desc": "合計 %s 台の車両を解体しました",
+        "parts-title": "パーツ",
+        "parts-desc": "合計 %s 個のパーツを入手しました"
+    },
+    "chop-menu": {
+        "main-title": "チョップショップ",
+        "leaderboards-title": "リーダーボード",
+        "leaderboards-desc": "トップ10の解体屋を表示",
+        "tool-shop-title": "ツールショップ",
+        "tool-shop-desc": "解体用ツールを購入",
+        "swap-shop-title": "交換ショップ",
+        "swap-shop-desc": "自動車パーツを別のものと交換",
+        "create-group-title": "グループ作成",
+        "create-group-desc": "ソロまたは友達と一緒に解体作業を始める！",
+        "manage-group-title": "グループ管理",
+        "manage-group-desc": "解体グループを管理",
+        "start-chop-title": "ジョブをリクエスト",
+        "start-chop-desc": "探して解体する車両を割り当ててもらう"
+    },
+    "manage-group-menu": {
+        "main-title": "グループ管理",
+        "add-member-title": "メンバー追加",
+        "add-member-desc": "解体グループにメンバーを追加",
+        "remove-member-desc": "クリックしてメンバーをグループから削除",
+        "leave-group-title": "グループを離脱",
+        "leave-group-desc": "解体グループから抜ける",
+        "hideNames": "プレイヤー"
+    },
+    "swap-menu": {
+        "main-title": "交換ショップ",
+        "item-desc": "x%s 個の自動車パーツを x%s 個の %s と交換"
+    },
+    "tool-menu": {
+        "main-title": "ツールショップ",
+        "item-desc": "%s を $%s で購入"
+    },
+    "leaderboard-menu": {
+        "main-title": "リーダーボード",
+        "player-desc": "レベル: %s | XP: %s | 合計解体数: %s"
+    },
+    "emails": {
+        "vehicle-assigned": "やあ。頼みたいことがある。できるだけ早く %s を見つけて解体してくれ。気をつけてな、健闘を祈る！"
+    },
+    "logs": {
+        "part-chopped-title": "パーツ解体",
+        "part-chopped-desc": "%s (ID: %s) が車両からパーツ (部位: %s) を解体し、x%s %s を受け取りました",
+        "item-purchased-title": "アイテム購入",
+        "item-purchased-desc": "%s (ID: %s) が x%s %s を $%s で購入しました",
+        "item-swapped-title": "アイテム交換",
+        "item-swapped-desc": "%s (ID: %s) が x%s %s を x%s %s と交換しました",
+        "tool-broke-title": "ツール破損",
+        "tool-broke-desc": "%s (ID: %s) の %s が壊れました"
+    }
+}

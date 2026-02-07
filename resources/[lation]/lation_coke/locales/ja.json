@@ -1,0 +1,316 @@
+{
+    "notify": {
+        "cant-carry": "これ以上持てません",
+        "already-searched": "ここには何もないようです",
+        "limit-reached": "少し休憩した方が良さそうです",
+        "not-experienced": "まだこれを行うための経験が足りません",
+        "max-tables": "テーブルはもう十分あると思います",
+        "max-plants": "植物はもう十分あると思います",
+        "no-police": "街に十分な警察がいません",
+        "no-pot": "これを植木鉢か何かに植えるべきです",
+        "no-water": "水が足りません",
+        "no-fertilizer": "肥料が足りません",
+        "no-shears": "剪定ばさみがあれば役立つでしょう",
+        "cant-place": "ここには置けません",
+        "missing-item": "これを行うには %s が必要です",
+        "missing-metadata": "十分なアイテムを持っていません",
+        "no-money": "お金が足りません",
+        "brick-already-cut": "このブロックは既にカットされています",
+        "lab-limit": "これ以上ラボを所有できません",
+        "door-locked": "ドアは施錠されています",
+        "door-lock-changed": "ドアを%sしました",
+        "create-stash-passcode": "新しいパスコードを作成しました",
+        "change-stash-passcode": "パスコードを変更しました",
+        "remove-stash-passcode": "パスコードを削除しました",
+        "transfer-self": "すでにこのラボを所有しています",
+        "transfer-invalid": "ターゲットが無効または利用できません",
+        "transfer-level": "ターゲットは少なくともレベル %s である必要があります",
+        "transfer-max": "ターゲットはこれ以上ラボを所有できません",
+        "transfer-success-owner": "譲渡を完了しました",
+        "transfer-success-target": "ラボの所有権を受け取りました",
+        "auth-user-invalid": "ターゲットが無効または利用できません",
+        "auth-user-self": "自分自身を追加することはできません",
+        "auth-user-exists": "ターゲットは既に許可されたユーザーです",
+        "auth-user-added": "%s を正常に追加しました",
+        "auth-user-edited": "%s の権限を正常に編集しました",
+        "auth-user-removed": "%s を正常に削除しました",
+        "no-permission": "これを行う権限がありません",
+        "invalid-stash-passcode": "入力したパスコードが間違っています",
+        "raid-stash-failed": "保管庫への侵入に失敗しました",
+        "raid-entry-failed": "ラボへの侵入に失敗しました",
+        "confiscate-success": "指令に通知され、押収が進行中です"
+    },
+    "target": {
+        "search-coca": "探す",
+        "use-table": "使用",
+        "use-station": "使用",
+        "check-status": "状態を確認",
+        "take-cement": "セメントを取る",
+        "open-shop": "話す",
+        "enter-lab": "入る",
+        "exit-lab": "出る",
+        "open-stash": "保管庫を開く",
+        "manage-lab": "ラボ管理",
+        "confiscate-equipment": "機材を押収"
+    },
+    "textui": {
+        "plant-controls": "**操作**  \n **W**: 前へ  \n **S**: 後ろへ  \n **A**: 左へ  \n **D**: 右へ  \n **X**: キャンセル  \n **Space**: 確定",
+        "table-controls": "**操作**  \n **Q**: 左回転  \n **E**: 右回転  \n **W**: 前へ  \n **S**: 後ろへ  \n **A**: 左へ  \n **D**: 右へ  \n **X**: キャンセル  \n **Space**: 確定",
+        "camera-controls": "**Controls**  \n **W**: 上へ回転  \n **A**: 左へ回転  \n **S**: 下へ回転  \n **D**: 右へ回転  \n **Q**: ズームアウト  \n **E**: ズームイン  \n **Backspace**: 終了"
+    },
+    "alerts": {
+        "pickup": {
+            "header": "確認",
+            "content": "本当にテーブルを片付けますか？"
+        },
+        "destroy": {
+            "header": "確認",
+            "content": "本当にこの植物を破棄しますか？"
+        },
+        "raid-stash": {
+            "header": "侵入",
+            "content": "本当にこの保管庫に侵入しますか？"
+        },
+        "raid-entry": {
+            "header": "侵入",
+            "content": "本当にこのラボに侵入しますか？"
+        },
+        "remove-authorized-user": {
+            "header": "ユーザー削除",
+            "content": "本当に %s を許可ユーザーリストから削除しますか？"
+        }
+    },
+    "inputs": {
+        "shops": {
+            "label": "数量",
+            "desc": "いくつ購入しますか？"
+        },
+        "gas": {
+            "label": "ガソリン",
+            "desc": "どれくらいのガソリンを追加しますか？"
+        },
+        "cement": {
+            "label": "セメント",
+            "desc": "どれくらいのセメントを追加しますか？"
+        },
+        "brick": {
+            "label": "タイプ選択",
+            "desc": "どのブロックを選択しますか？",
+            "options": {
+                "cocaine": "コカイン",
+                "crack": "クラック"
+            }
+        },
+        "confiscate": {
+            "title": "警察アクション",
+            "manufacturing": "製造機器",
+            "security": "セキュリティ機器"
+        },
+        "stash": {
+            "title": "保管庫",
+            "label": "パスコード入力",
+            "desc": "この保管庫にアクセスするにはパスコードが必要です"
+        },
+        "passcode": {
+            "title": "パスコード作成",
+            "label": "パスコード",
+            "desc": "新しいパスコードを入力"
+        },
+        "change-passcode": {
+            "title": "パスコード変更",
+            "label": "パスコード",
+            "desc": "新しいパスコードを入力"
+        },
+        "transfer-ownership": {
+            "title": "所有権譲渡",
+            "label": "プレイヤーID",
+            "desc": "所有権を譲渡するプレイヤーIDを入力してください"
+        },
+        "sell-lab": {
+            "title": "ラボ売却",
+            "label": "売却確認",
+            "desc": "この操作は取り消せません。続けるには '%s' と入力してください"
+        },
+        "add-authorized-user": {
+            "title": "許可ユーザー追加",
+            "label": "プレイヤーID",
+            "desc": "追加したいプレイヤーIDを入力してください"
+        },
+        "manage-authorized-user": {
+            "title": "ユーザー管理",
+            "label": "アクション選択",
+            "desc": "何をしますか？",
+            "edit": "権限編集",
+            "remove": "ユーザー削除"
+        },
+        "edit-authorized-user": {
+            "title": "%s を編集",
+            "access-lab": "ラボへのアクセス (常時許可)",
+            "manage-door": "ドアの施錠/解錠",
+            "view-camera": "監視カメラ閲覧",
+            "manage-users": "許可ユーザーの追加/削除"
+        }
+    },
+    "player-data": {
+        "level-title": "コカイン | レベル %s/%s",
+        "level-desc": "現在のXP: %s",
+        "stats-title": "生涯統計",
+        "stats-desc": "コカインに関する生涯統計を表示",
+        "meta-next-level": "次のレベル",
+        "meta-remainder": "残り",
+        "meta-maxed-level": "最大レベル到達"
+    },
+    "stats-menu": {
+        "main-title": "生涯統計",
+        "leaves-title": "葉",
+        "leaves-desc": "合計 %s 枚のコカの葉を収穫しました",
+        "grown-title": "植物",
+        "grown-desc": "合計 %s 本のコカの木を育てました",
+        "cement-title": "セメント",
+        "cement-desc": "合計 %s 袋のセメントを集めました",
+        "bricks-title": "ブロック",
+        "bricks-desc": "合計 %s 個のブロックを生産しました"
+    },
+    "table-menu": {
+        "main-title": "コカイン",
+        "production-title": "生産",
+        "production-desc": "コークのバッチ生産を開始",
+        "in-progress-title": "進行中",
+        "in-progress-desc": "完了までの残り時間 - %s分",
+        "take-product-title": "製品を取る",
+        "take-product-desc": "テーブルから製品を取り出す",
+        "process-leaves-title": "葉を加工",
+        "process-leaves-desc": "コカの葉の加工を開始",
+        "add-gas-title": "ガソリン追加",
+        "add-gas-desc": "加工した葉にガソリンを追加",
+        "add-cement-title": "セメント追加",
+        "add-cement-desc": "コカベースにセメントを追加",
+        "start-heat-title": "加熱 & 乾燥",
+        "start-heat-desc": "コカベースを加熱して乾燥させる",
+        "cook-coke-title": "コーク調理",
+        "cook-coke-desc": "さらに調理してクラックを作る（オプション）",
+        "cut-brick-title": "ブロックをカット",
+        "cut-brick-desc": "重曹でカットして量を増やす（オプション）",
+        "package-title": "パッキング",
+        "package-desc": "ブロックを小袋に分ける",
+        "packup-title": "片付ける",
+        "packup-desc": "すべてをまとめてテーブルを移動"
+    },
+    "plant-menu": {
+        "main-title": "コカの木",
+        "water-title": "水やり",
+        "water-desc": "現在の水分量 - %.1f%% (クリックして水やり)",
+        "fertilizer-title": "肥料",
+        "fertilizer-desc": "現在の栄養量 - %.1f%% (クリックして肥料を与える)",
+        "growth-title": "成長",
+        "growth-desc": "現在の成長度 - %.1f%%",
+        "yield-title": "収穫量",
+        "yield-desc": "現在の最大収穫可能性 - %.1f%%",
+        "destroy-title": "破棄",
+        "destroy-desc": "この植物を永久に破棄する",
+        "harvest-title": "収穫",
+        "harvest-desc-not-ready": "収穫は成長度が100%になるまでできません",
+        "harvest-desc-ready": "この植物を収穫できます"
+    },
+    "lab-shop-menu": {
+        "main-title": "ラボ物件",
+        "confirm-title": "購入確認",
+        "lab-title": "$%s で購入",
+        "confirm-purchase-title": "はい",
+        "confirm-purchase-desc": "$%s で倉庫の購入を確定する",
+        "cancel-purchase-title": "いいえ",
+        "cancel-purchase-desc": "購入をキャンセルして選択に戻る",
+        "set-waypoint-title": "ウェイポイント設定",
+        "set-waypoint-desc": "この倉庫の場所を確認するためにウェイポイントを設定"
+    },
+    "manage-lab-menu": {
+        "main-title": "ラボ管理",
+        "manage-security-title": "セキュリティ",
+        "manage-security-desc": "ラボのセキュリティを管理",
+        "upgrade-equipment-title": "設備アップグレード",
+        "upgrade-equipment-desc": "ラボの設備をアップグレード",
+        "install-security-title": "セキュリティ設置",
+        "install-security-desc": "ラボにセキュリティ機器を追加",
+        "upgrade-pending-title": "アップグレード保留中",
+        "upgrade-pending-desc": "完了までの推定残り時間 - %s分 %s秒",
+        "ownership-title": "所有権",
+        "ownership-desc": "ラボの所有権を管理"
+    },
+    "manage-security-menu": {
+        "main-title": "セキュリティ管理",
+        "doorlock-title": "ドアの状態",
+        "doorlock-desc": "ドアは現在 %s です",
+        "create-passcode-title": "パスコード作成",
+        "create-passcode-desc": "保管庫にアクセスするための固有パスコードを追加",
+        "change-passcode-title": "パスコード変更",
+        "change-passcode-desc": "保管庫にアクセスするためのパスコードを変更",
+        "remove-passcode-title": "パスコード削除",
+        "remove-passcode-desc": "保管庫へのアクセス用パスコードを削除",
+        "authorized-users-title": "許可ユーザー",
+        "authorized-users-desc": "ラボへのアクセス権を持つユーザーを管理",
+        "security-camera-title": "カメラ閲覧",
+        "security-camera-desc": "監視カメラの映像を確認"
+    },
+    "manage-authorized-users-menu": {
+        "main-title": "許可ユーザー",
+        "add-user-title": "ユーザー追加",
+        "add-user-desc": "許可ユーザーリストにプレイヤーを追加",
+        "manage-user-desc": "クリックしてこのユーザーのアクセス権を管理"
+    },
+    "manage-ownership-menu": {
+        "main-title": "所有権管理",
+        "transfer-owner-title": "譲渡",
+        "transfer-owner-desc": "このラボの所有権を譲渡",
+        "sell-lab-title": "売却",
+        "sell-lab-desc": "この物件を州に売却"
+    },
+    "shop-menu": {
+        "title": "ラスティの店",
+        "desc": "%s を $%s で購入"
+    },
+    "dispatch": {
+        "cement": {
+            "title": "窃盗報告",
+            "code": "10-31",
+            "message": "%s 付近で窃盗が進行中との匿名通報がありました"
+        },
+        "cooking-table": {
+            "title": "不審なエリア",
+            "code": "10-87",
+            "message": "%s 付近で不審な活動があるとの匿名通報がありました"
+        },
+        "cooking-lab": {
+            "title": "強い異臭",
+            "code": "10-87",
+            "message": "%s 付近で強い薬品臭がするとの匿名通報がありました"
+        }
+    },
+    "logs": {
+        "leaves-harvested-title": "コカの葉",
+        "leaves-harvested-message": "%s (ID: %s) が x%d %s を収穫しました",
+        "cement-collected-title": "セメント回収",
+        "cement-collected-message": "%s (ID: %s) が x%d %s を回収しました",
+        "table-placed-title": "テーブル設置",
+        "table-placed-message": "%s (ID: %s) が %s にテーブルを設置しました (tableId: %s)",
+        "table-brick-title": "ブロック回収",
+        "table-brick-message": "%s (ID: %s) がコカインブロックを回収しました (tableId: %s)",
+        "table-packaged-title": "ブロック梱包",
+        "table-packaged-message": "%s (ID: %s) がコカインブロックを %s 個の小袋に梱包しました (tableId: %s)",
+        "table-removed-title": "テーブル撤去",
+        "table-removed-message": "%s (ID: %s) がテーブルを回収しました (tableId: %s)",
+        "lab-purchase-title": "ラボ購入",
+        "lab-purchase-message": "%s (ID: %s) がラボ (labId: %s) を $%s で購入しました",
+        "lab-brick-title": "ブロック回収",
+        "lab-brick-message": "%s (ID: %s) がコカインブロックを回収しました (labId: %s, stationId: %s)",
+        "lab-packaged-title": "ブロック梱包",
+        "lab-packaged-message": "%s (ID: %s) が %s を x%s 個の小袋に梱包しました (labId: %s, stationId: %s)",
+        "lab-upgrade-title": "ラボアップグレード",
+        "lab-upgrade-message": "ラボ (labId: %s) のアップグレードが完了しました",
+        "lab-door-title": "ラボドア",
+        "lab-door-message": "%s (ID: %s) がラボ (labId: %s) のドアを %s しました",
+        "lab-transfer-title": "ラボ所有権譲渡",
+        "lab-transfer-message": "%s (ID: %s) がラボ (labId: %s) の所有権を %s (ID: %s) に譲渡しました",
+        "lab-sold-title": "ラボ売却",
+        "lab-sold-message": "%s (ID: %s) がラボ (labId: %s) を州に $%s で売却しました"
+    }
+}

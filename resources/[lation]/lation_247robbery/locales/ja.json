@@ -1,0 +1,44 @@
+{
+    "notify": {
+        "cancel-rob": "レジ強盗を中止しました",
+        "cooldown": "今はやめておいた方がよさそうだ... 少し待とう",
+        "no-police": "街に十分な警察がいません",
+        "missing-item": "道具があればもっと簡単にできそうだが...",
+        "item-broke": "ロックピックが壊れてしまい、レジを開けられませんでした",
+        "failed-hack": "コンピュータのハッキングに失敗しました",
+        "wrong-pin": "何かが違うようだ... まだロックされている",
+        "failed-limit": "失敗しすぎたため、レジ強盗に失敗しました"
+    },
+    "target": {
+        "register": "レジを襲う",
+        "computer": "ログイン",
+        "safe": "解錠する"
+    },
+    "alerts": {
+        "note": {
+            "header": "メモを発見",
+            "content": "レジの下に興味深いメモを見つけました。そこには数字だけが書かれています: %s"
+        },
+        "hack": {
+            "header": "コード解読",
+            "content": "コンピュータのハッキングに成功し、以下のコードを見つけました: %s"
+        }
+    },
+    "inputs": {
+        "questions": {
+            "header": "セキュリティの質問"
+        },
+        "safe": {
+            "header": "店舗金庫",
+            "label": "PINを入力",
+            "desc": "金庫を開けるためのPINを入力してください",
+            "placeholder": "1234"
+        }
+    },
+    "logs": {
+        "register-robbed-title": "レジ強盗発生",
+        "register-robbed-message": "%s (ID: %s) が %s のレジ強盗に成功しました",
+        "safe-robbed-title": "金庫強盗発生",
+        "safe-robbed-message": "%s (ID: %s) が %s の金庫強盗に成功しました"
+    }
+}

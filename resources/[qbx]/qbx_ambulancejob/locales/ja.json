@@ -1,0 +1,87 @@
+{
+    "error": {
+        "canceled": "キャンセルされました",
+        "impossible": "実行できません...",
+        "no_player": "近くにプレイヤーがいません",
+        "no_firstaid": "救急キットが必要です",
+        "no_bandage": "包帯が必要です",
+        "beds_taken": "ベッドが満床です...",
+        "possessions_taken": "所持品がすべて没収されました...",
+        "cant_help": "この人を助けることはできません...",
+        "not_ems": "あなたはEMSではないか、勤務中ではありません"
+    },
+    "success": {
+        "revived": "蘇生させました",
+        "healthy_player": "プレイヤーは健康です",
+        "helped_player": "治療しました",
+        "being_helped": "治療を受けています..."
+    },
+    "info": {
+        "civ_died": "市民死亡",
+        "civ_down": "市民が意識不明",
+        "civ_call": "市民からの通報",
+        "ems_down": "医師 %s が意識不明",
+        "respawn_txt": "RESPAWN IN: ~r~%s~s~ SECONDS",
+        "respawn_revive": "HOLD [~r~E~s~] FOR %s SECONDS TO RESPAWN FOR ¥~r~%s~s~",
+        "bleed_out": "YOU WILL BLEED OUT IN: ~r~%s~s~ SECONDS",
+        "bleed_out_help": "YOU WILL BLEED OUT IN: ~r~%s~s~ SECONDS, YOU CAN BE HELPED",
+        "request_help": "PRESS [~r~G~s~] TO REQUEST HELP",
+        "help_requested": "救急隊に通知されました",
+        "amb_plate": "AMBU",
+        "heli_plate": "LIFE",
+        "status": "ステータスチェック",
+        "is_status": "状態: %s",
+        "healthy": "完全に回復しました！",
+        "safe": "病院金庫",
+        "ems_alert": "EMS通知 - %s",
+        "mr": "Mr.",
+        "mrs": "Mrs.",
+        "dr_needed": "ピルボックス病院に医師が必要です",
+        "dr_alert": "医師に通知済みです",
+        "ems_report": "EMSレポート",
+        "message_sent": "送信するメッセージ",
+        "check_health": "健康状態を診断",
+        "heal_player": "治療する",
+        "revive_player": "蘇生する"
+    },
+    "mail": {
+        "sender": "ピルボックス病院",
+        "subject": "入院費用",
+        "message": "%s %s 様、<br /><br />前回の入院費用に関する請求書をお送りします。<br />請求額は <strong>¥%s</strong> となります。<br /><br />早期の回復をお祈り申し上げます！"
+    },
+    "menu": {
+        "amb_vehicles": "救急車両",
+        "status": "健康状態"
+    },
+    "text": {
+        "pstash_button": "個人スタッシュ",
+        "pstash": "個人スタッシュ",
+        "onduty_button": "勤務開始",
+        "offduty_button": "勤務終了",
+        "duty": "勤務 切替",
+        "armory_button": "装備庫",
+        "armory": "装備庫",
+        "veh_button": "車両を出す / しまう",
+        "elevator_roof": "屋上へ行く",
+        "elevator_main": "下の階へ行く",
+        "el_roof": "屋上へ行く",
+        "el_main": "メインフロアへ行く",
+        "call_doc": "医師を呼ぶ",
+        "call": "呼ぶ",
+        "check_in": "受付",
+        "check": "受付",
+        "lie_bed": "ベッドに横になる",
+        "bed": "横になる",
+        "put_bed": "市民をベッドに寝かせる",
+        "bed_out": "ベッドから降りる",
+        "alert": "警告！"
+    },
+    "progress": {
+        "ifaks": "IFAKを使用中...",
+        "bandage": "包帯を使用中...",
+        "painkillers": "鎮痛剤を使用中...",
+        "revive": "蘇生中...",
+        "healing": "傷を治療中...",
+        "checking_in": "受付中..."
+    }
+}

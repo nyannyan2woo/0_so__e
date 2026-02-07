@@ -1,0 +1,137 @@
+{
+    "notify": {
+        "no-money": "お金が足りません",
+        "no-items": "質入れするものがありません",
+        "not-experienced": "まだこれを行うための経験が足りません",
+        "cant-carry": "これ以上持てません",
+        "no-durability": "酸素タンクが空です！",
+        "no-scuba-gear": "酸素を補充するためのスキューバギアを持っていません",
+        "scuba-gear-full": "スキューバギアは既に満タンです",
+        "refill-success": "スキューバギアに酸素を補充しました",
+        "release-anchor": "ボートのアンカーを上げました",
+        "set-anchor": "ボートのアンカーを下ろしました",
+        "invalid-player": "ターゲットが無効または利用できません",
+        "already-in-group": "すでにグループに参加しています",
+        "target-already-in-group": "ターゲットはすでにグループに参加しています",
+        "target-owns-a-group": "ターゲットはすでにグループを所有しています",
+        "owner-left-group": "グループは解散しました",
+        "member-left-group": "グループから抜けました",
+        "owner-added-member": "%s をグループに追加しました",
+        "member-added": "%s があなたをダイビンググループに追加しました",
+        "owner-removed-member": "%s をグループから削除しました",
+        "member-removed": "%s があなたをダイビンググループから削除しました"
+    },
+    "target": {
+        "start-diving": "話す",
+        "toggle-anchor": "アンカー切り替え",
+        "pickup-crate": "拾う"
+    },
+    "textui": {
+        "underwater": "酸素残量: %s%%  \n 現在の深度: %s%s  \n 記録深度: %s%s  \n 発見クレート数: %s/%s"
+    },
+    "inputs": {
+        "quantity": {
+            "label": "数量",
+            "desc": "いくつですか？"
+        },
+        "player": {
+            "label": "プレイヤー",
+            "desc": "プレイヤーIDを入力"
+        }
+    },
+    "alerts": {
+        "continue-diving": {
+            "header": "ダイビングを続けますか？",
+            "content": "よくやった！グループですべてのクレートを回収しました。ダイビングを続けますか？",
+            "labels": {
+                "confirm": "続ける",
+                "cancel": "やめる"
+            }
+        }
+    },
+    "emails": {
+        "searching": "やあ！俺だ。クレートが見つかるかもしれないホットスポットの情報を探す時間をくれ。何か見つけたら連絡する！",
+        "found-something": "やあ！ホットスポットの情報を入手したぞ！GPSにマークされたエリアに向かって、何か見つかるか試してみてくれ。幸運を祈る！"
+    },
+    "player-data": {
+        "level-title": "スキューバダイビング | レベル %s/%s",
+        "level-desc": "現在のXP: %s",
+        "stats-title": "統計",
+        "stats-desc": "生涯ダイビング統計を表示",
+        "meta-next-level": "次のレベル",
+        "meta-remainder": "残り",
+        "meta-maxed-level": "最大レベル到達"
+    },
+    "stats-menu": {
+        "main-title": "統計",
+        "crates-title": "クレート",
+        "crates-desc": "合計 %s 個のクレートを回収しました",
+        "depth-title": "深度",
+        "depth-desc": "最深記録は %s%s です",
+        "swam-title": "水泳距離",
+        "swam-desc": "水中を合計 %s%s泳ぎました"
+    },
+    "diving-menu": {
+        "main-title": "スキューバダイビング",
+        "leaderboards-title": "リーダーボード",
+        "leaderboards-desc": "トップ10ダイバーを表示",
+        "shop-title": "ダイブショップ",
+        "shop-desc": "ダイビング機材を購入",
+        "pawn-title": "質屋",
+        "pawn-desc": "戦利品を現金にする",
+        "rental-title": "ボートレンタル",
+        "rental-desc": "ボートがない？問題なし！",
+        "create-group-title": "グループ作成",
+        "create-group-desc": "ソロまたは友達と一緒にダイビングを始める！",
+        "manage-group-title": "グループ管理",
+        "manage-group-desc": "ダイビンググループを管理",
+        "rental-return-title": "ボート返却",
+        "rental-return-desc": "レンタルしたボートを返却",
+        "start-title": "ダイビング開始",
+        "start-desc": "ギアとボートの準備はいいか？行こう！",
+        "stop-title": "ダイビング終了",
+        "stop-desc": "十分泳いだか？休憩しよう！"
+    },
+    "shop-menu": {
+        "gear": {
+            "main-title": "ギアショップ",
+            "tank-title": "%s | レベル %s",
+            "item-desc": "%s を $%s で購入"
+        },
+        "pawn": {
+            "main-title": "質屋",
+            "item-desc": "%s を $%s で売却"
+        }
+    },
+    "manage-group-menu": {
+        "main-title": "グループ管理",
+        "add-member-title": "メンバー追加",
+        "add-member-desc": "メンバーをダイビンググループに追加",
+        "remove-member-desc": "クリックしてメンバーをグループから削除",
+        "leave-group-title": "グループを離脱",
+        "leave-group-desc": "ダイビンググループから抜ける",
+        "hideNames": "プレイヤー"
+    },
+    "leaderboard-menu": {
+        "main-title": "リーダーボード",
+        "player-desc": "レベル: %s | XP: %s | 合計クレート数: %s"
+    },
+    "logs": {
+        "crate-found-title": "クレート発見",
+        "crate-found-message": "%s (ID: %s) が %s でクレートを拾いました",
+        "crate-opened-title": "クレート開封",
+        "crate-opened-message": "%s (ID: %s) がクレートを開け、%s を受け取りました",
+        "item-purchased-title": "ショップ購入",
+        "item-purchased-message": "%s (ID: %s) が x%d %s を購入しました",
+        "item-pawned-title": "質屋売却",
+        "item-pawned-message": "%s (ID: %s) が x%d %s を $%s で売却しました",
+        "boat-rented-title": "ボートレンタル",
+        "boat-rented-message": "%s (ID: %s) がボートを $%s でレンタルしました",
+        "boat-returned-title": "ボート返却",
+        "boat-returned-message": "%s (ID: %s) がボートを返却し、$%s を受け取りました"
+    },
+    "measurements": {
+        "meters": "m",
+        "feet": "ft"
+    }
+}

@@ -1,0 +1,80 @@
+{
+    "notify": {
+        "missing-item": "何か必要なものが足りません",
+        "not-experienced": "これを行うには経験が足りないようです",
+        "missing-pickaxe": "使えるつるはしが必要です",
+        "pickaxe-no-durability": "つるはしの状態が悪すぎます...",
+        "nighttime": "夜間の採掘は許可されていないようです",
+        "no-money": "所持金が足りません",
+        "no-item": "アイテムが足りません",
+        "cant-carry": "これ以上持てません",
+        "max-ingots": "一度に精錬できるインゴットは最大 %s 個までです"
+    },
+    "target": {
+        "mine-ore": "採掘する",
+        "mine-shop": "話す",
+        "smelt-ore": "精錬する"
+    },
+    "textui": {
+        "smelt": "精錬中 (%s/%s) - %s%%"
+    },
+    "inputs": {
+        "label": "数量",
+        "desc": "いくつですか？"
+    },
+    "player-data": {
+        "level-title": "採掘 | レベル %s/%s",
+        "level-desc": "現在の経験値: %sXP",
+        "stats-title": "生涯統計",
+        "stats-desc": "これまでの採掘統計を表示",
+        "meta-next-level": "次のレベルまで",
+        "meta-remainder": "残り",
+        "meta-maxed-level": "最大レベル到達"
+    },
+    "stats-menu": {
+        "main-title": "生涯統計",
+        "mined-title": "採掘数",
+        "mined-desc": "これまでに合計 %s 個の鉱石を採掘しました",
+        "smelted-title": "精錬数",
+        "smelted-desc": "これまでに合計 %s 個のインゴットを精錬しました",
+        "earned-title": "獲得金額",
+        "earned-desc": "これまでに合計 ¥%s を獲得しました"
+    },
+    "mine-menu": {
+        "main-title": "鉱山",
+        "leaderboards-title": "リーダーボード",
+        "leaderboards-desc": "トップ10の採掘者を表示",
+        "shop-title": "ショップ",
+        "shop-desc": "採掘用具を購入する",
+        "pawn-title": "質屋 (買取)",
+        "pawn-desc": "鉱石などを売却して利益を得る"
+    },
+    "shop-menu": {
+        "main-title": "鉱山: ショップ",
+        "pickaxe-title": "%s | レベル %s",
+        "item-desc": "%s を ¥%s で購入"
+    },
+    "pawn-menu": {
+        "main-title": "鉱山: 買取",
+        "item-title": "%s を売る",
+        "item-desc": "%s を ¥%s で売却"
+    },
+    "leaderboard-menu": {
+        "main-title": "鉱山: リーダーボード",
+        "player-desc": "レベル: %s | XP: %s | 総採掘数: %s"
+    },
+    "smelt-menu": {
+        "main-title": "精錬",
+        "ingot-desc": "必要素材: %s"
+    },
+    "logs": {
+        "mined-title": "鉱石採掘",
+        "mined-message": "%s (ID: %s) が %s を採掘しました",
+        "smelted-title": "インゴット精錬",
+        "smelted-message": "%s (ID: %s) が %s を x%d 個精錬しました",
+        "purchased-title": "ショップ購入",
+        "purchased-message": "%s (ID: %s) が %s を x%d 個購入しました",
+        "pawned-title": "質屋売却",
+        "pawned-message": "%s (ID: %s) が %s を x%d 個売却しました"
+    }
+}

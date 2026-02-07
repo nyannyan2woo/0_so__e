@@ -1,0 +1,56 @@
+{
+    "error": {
+        "toofast": "移動速度が速すぎます",
+        "nocheckpoints": "チェックポイントがまだ設置されていません...",
+        "atleast10checkp": "最低でも10個のチェックポイントが必要です",
+        "higherthan15": "15以上に設定することはできません",
+        "lowerthan2": "2以下に設定することはできません",
+        "mustbeinveh": "車両に乗っている必要があります",
+        "pressagain": "[9] をもう一度押して確定",
+        "editorcancelled": "レースエディターをキャンセルしました！",
+        "alreadymaking": "すでにレースを作成中です",
+        "alreadyinrace": "すでにレースに参加しています...",
+        "notinarace": "レースに参加していません...",
+        "playerfinished": "%s がゴールしました: %s位",
+        "gobackorkick": "スタート地点に戻らないとレースからキックされます: %s秒",
+        "namealreadyused": "その名前のレースは既に存在します",
+        "notauthorized": "%{to} する権限がありません",
+        "raceended": "参加者があなただけだったため、レースは終了しました",
+        "alreadyrunning": "レースは既に進行中です",
+        "notexist": "このレースは存在しません :(",
+        "stoppingrace": "レースを停止中: %s",
+        "racenotopen": "レースは開催されていません: %s",
+        "notcreator": "あなたはこのレースの作成者ではありません...",
+        "notstarted": "このレースはまだ始まっていません",
+        "nomoreraces": "これ以上レースを作成できません！"
+    },
+    "success": {
+        "savedrace": "レース: %s を保存しました！",
+        "finishedbest": "レース終了: %s (ベストラップ: %s)",
+        "finished": "レース終了: %s",
+        "start": "GO!",
+        "cancreate": "再びレースを作成できるようになりました！"
+    },
+    "primary": {
+        "LeaveRace": "レースを完了しました！",
+        "startinten": "レースは10秒後に開始します"
+    },
+    "general": {
+        "CheckL": "チェックポイント(左)",
+        "CheckR": "チェックポイント(右)",
+        "DNF": "DNF (リタイア)",
+        "unknown": "不明",
+        "dothis": "これを実行",
+        "createraces": " レースを作成"
+    },
+    "phonenotif": {
+        "wonWR": "%s が切断されたため、タイム %s でWR(世界記録)を獲得しました！",
+        "wonWR2": "%s の記録を破り、タイム %s でWR(世界記録)を獲得しました！",
+        "joinedrace": "%s. %s がレースに参加しました！",
+        "LeaveRace": "%s. %s がレースから退出しました！"
+    },
+    "commands": {
+        "cancelrace": "進行中のレースをキャンセル...",
+        "togglesetup": "レース設定のオン/オフ切り替え"
+    }
+}
